@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9CDF7;
+    font-family: 'Lato',Arial,sans-serif;
+    color: #271A45;
+}
+.product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.product-code{
+    font-size: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.product-name{
+    font-family: Crimson Pro;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.btn-cart{
+    font-size: 12px;
+    text-transform: uppercase;
+    color:#271A45;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #271A45;
+    border-radius: 40px;
+    width: fit-content;
+    margin-top: 8px;
+}
